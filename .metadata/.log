@@ -221,3 +221,6 @@ java.lang.InterruptedException
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-18 20:05:01.352
 !MESSAGE Boot project ADDED: hr-payroll
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-18 20:09:03.418
+!MESSAGE Classpath changed for project: hr-payroll
