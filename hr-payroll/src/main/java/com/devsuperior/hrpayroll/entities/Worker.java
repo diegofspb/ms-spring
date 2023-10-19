@@ -1,3 +1,6 @@
+// esta entidade já tinha sido criada no serviço woker, porém foi copiada aqui para uso na classe PaymentService
+
+
 package com.devsuperior.hrpayroll.entities;
 
 import java.io.Serializable;

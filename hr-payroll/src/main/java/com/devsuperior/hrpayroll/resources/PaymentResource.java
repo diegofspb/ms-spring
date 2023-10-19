@@ -18,6 +18,8 @@ public class PaymentResource {
 	@Autowired
 	private PaymentService service;
 	
+	// para entender melhor, a url usada no Postman foi: http://localhost:8101/payments/1/days/10
+	
 //	@HystrixCommand(fallbackMethod = "getPaymentAlternative")
 	@GetMapping(value = "/{workerId}/days/{days}")
 	public ResponseEntity<Payment> getPayment(@PathVariable Long workerId, @PathVariable Integer days) {
